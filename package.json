@@ -1,0 +1,27 @@
+{
+  "name": "jwt_with_nodejs",
+  "version": "1.0.0",
+  "description": "JWT Authentication with Node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep-jai/JWT_with_Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep-jai/JWT_with_Nodejs/issues"
+  },
+  "homepage": "https://github.com/pradeep-jai/JWT_with_Nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "nodemon": "^1.19.1"
+  }
+}
