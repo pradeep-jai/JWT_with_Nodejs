@@ -12,6 +12,16 @@ const PORT = 3012;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.get("/", function(httpRequest, httpResponse, next){
+   httpResponse.write("Hello");
+   next();
+});
+
+app.get("/", function(httpRequest, httpResponse, next){
+   httpResponse.write(" Word !!!");
+   httpResponse.end();
+});
+
 app.get('/checking', function(req, res){
     res.json({
        "Tutorial": "Welcome to the Node express JWT Tutorial"
